@@ -7,9 +7,9 @@ class Listings extends Component {
         <h3>This is the Apartment Listings Page</h3>
         <h4>Apartments Available for Rent</h4>
         <ul>
-          <li>filler</li>
-          <li>filler</li>
-          <li>filler</li>
+          {this.props.apartments && this.props.apartments.map(apartment => {
+            return <p key={apartment.id}>{apartment.street}</p>
+          })}
         </ul>
       </>
     )
