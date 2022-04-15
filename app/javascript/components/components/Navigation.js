@@ -11,7 +11,7 @@ class Navigation extends Component {
             <NavLink to="/" className="nav-link">Home</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink to="/listings" className="nav-link">Apartment Listings</NavLink>
+            <NavLink to="/apartments" className="nav-link">Apartment Listings</NavLink>
           </NavItem>
         </Nav>
       </>
